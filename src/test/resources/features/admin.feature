@@ -10,7 +10,3 @@ Feature: Admin Functionality
     And I enter fullname "Peter Mac", username "peterMac", password "password123", and confirm password "password123"
     And I click the Save button
     Then I should see the new user "peterMac" in the user list
-#    And I click field dropdown status
-#    And I enter first name ~John", last name "Doe", username "johndoe", and password "password123"
-#    And I click the Save button
-#    Then I should see the new user "johndoe" in the usemr list

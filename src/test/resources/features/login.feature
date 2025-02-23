@@ -8,6 +8,6 @@ Feature: Login OrangeRM
 
   Scenario: Invalid login with wrong credentials
     Given I am on the OrangeHRM login page
-    When I enter username "Admin" and password "wrongpassword"
+    When I enter username "Admin" and password "wrongPassword"
     And I click the login button
     Then I should see an error message "Invalid credentials"
